@@ -22,17 +22,17 @@ Used Pandas functions in Jupyter Notebook to load all three CSV files.
 ## Transformation
 In order to transform the public data and use it in our study we performed the following:
 
-    1. Reviewed the files and transformed Invoices.csv and OrderLeads.csv into data frames
-    2. Splited the date column into "year" and "month" columns for `order_leads_df`
-    3. Converted months columns from month number to month name for `order_leads_df`
-    4. Calculated the conversion rate by month and transoformed the result into data frame called `year_month_clean`
-    5. Calculated the conversion rate by company names and transoformed the result into date frame called `company_name_df_clean`
-    6. Merged `order_leads_df` and `invoice_df` on OrderID and display new dataframe called `merged_df`(resulted in a 49983 null value after merging the data frames)
-    7. Splited the date column into "year" and "month" columns for `invoice_df`
-    8. Converted months columns from month number to month name for `invoice_df`
-    9. Coutned the numbers of meal and grouped by "Year", "Month", and "Type of Meal" for `invoice_df`
-    10. Save the groupby results into new dataframe called `invoice_clean_df`
-    11. Export `invoice_clean_df` to csv
+1. Reviewed the files and transformed Invoices.csv and OrderLeads.csv into data frames
+2. Splited the date column into "year" and "month" columns for `order_leads_df`
+3. Converted months columns from month number to month name for `order_leads_df`
+4. Calculated the conversion rate by month and transoformed the result into data frame called `year_month_clean`
+5. Calculated the conversion rate by company names and transoformed the result into date frame called `company_name_df_clean`
+6. Merged `order_leads_df` and `invoice_df` on OrderID and display new dataframe called `merged_df`(resulted in a 49983 null value after merging the data frames)
+7. Splited the date column into "year" and "month" columns for `invoice_df`
+8. Converted months columns from month number to month name for `invoice_df`
+9. Coutned the numbers of meal and grouped by "Year", "Month", and "Type of Meal" for `invoice_df`
+10. Save the groupby results into new dataframe called `invoice_clean_df`
+11. Export `invoice_clean_df` to csv
 
 ## SQL Evaluation 
 Creat Supermarket_Ordering_Project_2 Database <br />
