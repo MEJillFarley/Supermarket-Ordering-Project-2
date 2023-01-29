@@ -37,15 +37,15 @@ In order to transform the public data and use it in our study we performed the f
 ## SQL Evaluation 
 Create Supermarket_Ordering_Profect_2 Database
 Import CSV DF Table Files
-Create Tables:  **OrderLeads, Invoices, SalesTeam, Invoice_Clean, Order_Leads_DF**
+Create Tables:  __OrderLeads, Invoices, SalesTeam, Invoice_Clean, Order_Leads_DF__
 
 o	Average Order Value by Company
-o	Average Order Value by Month
+o	Average Order Value by Month 
 o	Average Order Value by Year
 o	Average Order Value by Company/Per Year
 o	Conversion Count by Company
 o	Conversion Ratio by Company
-o	Total Conversion Count over the years
+o	Total Conversion Count over the Years
 o	Sales Reps per Company
 o	Average Order Value by Sales Rep
 o	Average Order Value by Sales Rep on Converted Ordered
