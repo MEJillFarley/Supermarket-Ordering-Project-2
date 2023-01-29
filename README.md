@@ -39,6 +39,8 @@ Creat Supermarket_Ordering_Project_2 Database <br />
 Import CSV DF Files & Created Tables in Postgres SQL <br />
 
 Tables Created:  __OrderLeads, Invoices, SalesTeam, Invoice_Clean, Order_Leads_DF__ <br />
+The following queries were created to evaluate the dataframes <br />
+
     1. Average Order Value by Company <br />
     2. Average Order Value by Month  <br />
     3. Average Order Value by Year <br />
