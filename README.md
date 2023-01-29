@@ -35,8 +35,8 @@ In order to transform the public data and use it in our study we performed the f
     11. Export `invoice_clean_df` to csv
 
 ## SQL Evaluation 
-Creat Supermarket_Ordering_Project_2 Database
-Import CSV DF Files & Created Tables in Postgres SQL
+Creat Supermarket_Ordering_Project_2 Database <br />
+Import CSV DF Files & Created Tables in Postgres SQL <br />
 
 Tables Created:  __OrderLeads, Invoices, SalesTeam, Invoice_Clean, Order_Leads_DF__
     1. Average Order Value by Company
