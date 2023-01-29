@@ -38,18 +38,18 @@ In order to transform the public data and use it in our study we performed the f
 Creat Supermarket_Ordering_Project_2 Database <br />
 Import CSV DF Files & Created Tables in Postgres SQL <br />
 
-Tables Created:  __OrderLeads, Invoices, SalesTeam, Invoice_Clean, Order_Leads_DF__
-    1. Average Order Value by Company
-    2. Average Order Value by Month 
-    3. Average Order Value by Year
-    4. Average Order Value by Company/Per Year
-    5. Conversion Count by Company
-    6. Total Conversion Count over the Years
-    7. Sales Reps per Company
-    8. Average Order Value by Sales Rep
-    9. Average Order Value by Sales Rep on Converted Ordered
-    10. Average Meal Price
-    11. Average Meal Prices over the Years
+Tables Created:  __OrderLeads, Invoices, SalesTeam, Invoice_Clean, Order_Leads_DF__ <br />
+    1. Average Order Value by Company <br />
+    2. Average Order Value by Month  <br />
+    3. Average Order Value by Year <br />
+    4. Average Order Value by Company/Per Year <br />
+    5. Conversion Count by Company <br />
+    6. Total Conversion Count over the Years <br />
+    7. Sales Reps per Company <br />
+    8. Average Order Value by Sales Rep <br />
+    9. Average Order Value by Sales Rep on Converted Ordered <br />
+    10. Average Meal Price <br />
+    11. Average Meal Prices over the Years <br />
     
 ## Load
 The last step was to transfer our final output into a Database. We created a database and respective table to match the columns from the final Panda's Data Frame using Postgres database using PG admin to store our original clean data sets. We reconnected to the database and generated additional tables for the data frames.
