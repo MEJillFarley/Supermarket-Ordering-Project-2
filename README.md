@@ -10,6 +10,10 @@ The source of our datasets can be seen below:
 
 [Supermarket Ordering, Invoicing, and Sales] https://www.kaggle.com/datasets/thedevastator/supermarket-ordering-invoicing-and-sales-analysi?select=Invoices.csv 
 
+## Hypothesis
+
+
+
 ## Extract
 
 Used Pandas functions in Jupyter Notebook to load all three CSV files.
@@ -55,4 +59,4 @@ The last step was to transfer our final output into a Database. We created a dat
 Despite some limitations imposed by the data, we were still able to draw conclusions. We can now identify which months have the most and least converted orders. As well as which years had more converted orders than others by looking at year_month_clean.  Also, we can draw conclusions about which meal type is most popular based on the years and months by looking at invoice_year_month_count. 
 
 ## Summary
-Although there were some limitations due to the data available, we were still able to address our hypothesis question listed in our initial project proposal listed in the ETL Project Final Write UP.
+Although there were some limitations due to the data available, we were still able to peformt the ETL process for the data successfully and the database is now ready for conducting further analysis.
