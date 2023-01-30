@@ -51,7 +51,7 @@ The following queries were created to evaluate the dataframes <br />
 ## Load
 The last step was to transfer our final output into a Database. We created a database and respective table to match the columns from the final Panda's Data Frame using Postgres database using PG admin to store our original clean data sets. We reconnected to the database and generated additional tables for the data frames.
 
-##Analyze
+## Analyze
 Despite some limitations imposed by the data, we were still able to draw conclusions. We can now identify which months have the most and least converted orders. As well as which years had more converted orders than others by looking at year_month_clean.  Also, we can draw conclusions about which meal type is most popular based on the years and months by looking at invoice_year_month_count. 
 
 ## Summary
